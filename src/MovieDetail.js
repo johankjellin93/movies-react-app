@@ -21,7 +21,9 @@ class MovieDetail extends Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
+        <h1>{this.state.movie.title}</h1>
+        <h3>{this.state.movie.release_date}</h3>
+        <p>{this.state.movie.overview}</p>
       </div>
     );
   }
