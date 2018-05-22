@@ -28,6 +28,6 @@ export const Poster = styled.img`
 export const MovieGrid = styled.div`
     display: grid;
     padding: 1rem;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-row-gap: 1rem;
 `;
